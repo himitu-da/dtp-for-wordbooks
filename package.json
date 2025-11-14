@@ -17,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/himitu-da/dtp-for-wordbooks/issues"
   },
-  "homepage": "https://github.com/himitu-da/dtp-for-wordbooks#readme"
+  "homepage": "https://github.com/himitu-da/dtp-for-wordbooks#readme",
+  "dependencies": {
+    "puppeteer": "^24.30.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "zustand": "^5.0.8"
+  }
 }
