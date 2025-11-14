@@ -6,11 +6,15 @@ const createWindow = () => {
     width: 800,
     height: 600,
     webPreferences: {
-      preload: path.join(__dirname, 'preload.js'),
+      nodeIntegration: true,
+      contextIsolation: false,
     },
   });
 
-  mainWindow.loadFile('index.html');
+  mainWindow.loadFile(path.join(__dirname, 'index.html'));
+  
+  // 開発時はDevToolsを開く
+  mainWindow.webContents.openDevTools();
 };
 
 app.whenReady().then(() => {
