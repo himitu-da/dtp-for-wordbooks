@@ -2,8 +2,10 @@
   "name": "dtp-for-wordbooks",
   "version": "0.1.0",
   "description": "DTP for Wordbooks\r 紙の単語帳作成のためのDTPソフトウェア",
-  "main": "index.js",
+  "main": "dist/main.js",
   "scripts": {
+    "build": "webpack",
+    "start": "npm run build && electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
