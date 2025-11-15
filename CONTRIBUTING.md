@@ -16,10 +16,10 @@
 - develop: 開発ブランチ
 
 新しい機能追加やバグ修正のためのブランチは、以下の命名規則に従うこと。
-`<type>/#<issue-number>/<short-description>`
+`<type>/<issue-number>/<short-description>`
 
 `type` は以下のいずれかを使用する。
-- feature: 機能追加
+- feat: 機能追加
 - fix: バグ修正
 - build: ビルド関連の変更
 - ci: 継続的インテグレーション関連の変更
@@ -46,7 +46,7 @@ Conventional Commits 1.0.0 を参考にした以下のフォーマットを使�
 <detail>
 ```
 `type` は以下のいずれかを使用する。
-- feature: 機能追加
+- feat: 機能追加
 - fix: バグ修正
 - build: ビルド関連の変更
 - ci: 継続的インテグレーション関連の変更
