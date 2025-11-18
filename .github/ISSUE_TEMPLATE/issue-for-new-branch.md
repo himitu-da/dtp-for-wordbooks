@@ -1,7 +1,7 @@
 ---
 name: Issue for New Branch
 about: 新しいブランチを作成する際に作成するためのIssue
-title: "[branch] <issue-number>/<description>"
+title: "[branch] <type>/<description>"
 labels: ''
 assignees: ''
 
@@ -11,6 +11,8 @@ assignees: ''
 
 # 要件
 - [ ] タスク1
+  - [ ] サブタスク1
+  - [ ] サブタスク2
 - [ ] タスク2
 - [ ] タスク3
 
